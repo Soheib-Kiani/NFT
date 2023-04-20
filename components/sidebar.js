@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 const sidebar = () => {
   return (
-    <div className="min-h-screen bg-black text-sm w-52 font-jost">
+    <div className="min-h-screen bg-black text-sm w-52 font-jost border-r-2 border-r-yellow-300 ">
       {/* Sidebar Icon */}
       <div className="grid place-items-center pt-3">
         <img src="/side-icon/Group 2.png" alt="img" />

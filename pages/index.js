@@ -1,11 +1,14 @@
 import SideBar from '../components/sidebar';
+import Main from '../main/main'
 const index = () => {
   return (
-    <div className="flex">
+    <div className="flex ">
       <aside>
         <SideBar />
       </aside>
-      <div>sd</div>
+      <div className='w-full'>
+        <Main />
+      </div>
     </div>
   );
 };
