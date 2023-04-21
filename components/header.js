@@ -9,7 +9,7 @@ const header = () => {
           src="/header/Search.png"
           alt="img"
         />
-        <p className="font-extralight">Search by Sample, Kits, Creators...</p>
+        <p className="font-extralight text-gray-400 text-sm">Search by Sample, Kits, Creators...</p>
       </div>
       {/* Profile */}
       <div className="w-1/4 flex justify-center gap-x-3 ">
